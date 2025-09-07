@@ -1,8 +1,20 @@
 [package]
-name = "auto-bin-cli"
+name = "auto-bin"
 version = "0.1.0"
-edition = "2024"
+edition = "2021"
+description = "Automates adding src/bin targets into cargo.toml."
+license = "MIT"
+repository = "https://github.com/rustserv-er/auto-bin"
+keywords = ["cargo", "cli", "automation"]
+categories = ["development-tools::cargo-plugins"]
+readme = "README.md"
+authors = ["Sarvesh <rajeshbaranwal9044@gmail.com>"]
+
+[[bin]]
+name = "cargo-auto-bin"
+path = "src/main.rs"
 
 [dependencies]
 clap = { version = "4.5.45", features = ["derive"] }
 toml_edit = "0.23.4"
+anyhow = "1"
