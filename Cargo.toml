@@ -1,6 +1,6 @@
 [package]
 name = "auto-bin"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 description = "Automates adding src/bin targets into cargo.toml."
 license = "MIT"

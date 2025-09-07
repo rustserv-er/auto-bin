@@ -5,7 +5,7 @@ use anyhow::{Context, Result};
 
 fn main() {
     let matches = Command::new("auto-bin")
-        .version("0.1.0")
+        .version("0.1.1")
         .author("Sarvesh <rajeshbaranwal9044@gmail.com>")
         .about("Boosts productivity by automating bin setup in Rust projects 🚀")
         .arg(
