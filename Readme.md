@@ -44,7 +44,7 @@ src/bin/bar.rs
 
 After running:
 ```bash
-cargo auto-bin --init
+cargo-auto-bin --init
 ```
 
 Your `Cargo.toml` will automatically get updated with:
